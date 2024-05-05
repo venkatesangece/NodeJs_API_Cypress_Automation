@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_api_cypress_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { 
+    "start": "node index.js",
+    "test": "npx cypress run",
+    "cypress:open": "npx cypress open"
+  },
+  "keywords": [
+    "nodejs",
+    "cypress"
+  ],
+  "author": "venkatesan ganesan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6", 
+    "cypress": "^13.8.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
